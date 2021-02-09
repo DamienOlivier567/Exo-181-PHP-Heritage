@@ -25,4 +25,8 @@ class Dragon extends Personnage {
     public function cracheFeu() {
 
     }
+    public function getVie()
+    {
+        return $this->vie = 100;
+    }
 } 
